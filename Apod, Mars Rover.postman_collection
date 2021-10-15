@@ -1,0 +1,260 @@
+{
+	"info": {
+		"_postman_id": "76951ac1-241c-4f47-97d6-98e9acc47188",
+		"name": "Apod, Mars Rover",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://web.postman.co/workspace/bda39df9-e912-43de-8fce-77118571aff8/request/17144219-45aaaebb-c09b-42d9-aea9-1f2f2f7326fb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN&date=2021-09-08",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN"
+						},
+						{
+							"key": "date",
+							"value": "2021-09-08"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.nasa.gov/mars-photos/api/v1/rovers/spirit/photos?sol=13&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN&camera=MINITES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/spirit/photos?sol=13&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN&camera=MINITES",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"spirit",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "sol",
+							"value": "13"
+						},
+						{
+							"key": "api_key",
+							"value": "9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN"
+						},
+						{
+							"key": "camera",
+							"value": "MINITES"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos?sol=100&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN&camera=PANCAM",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos?sol=100&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN&camera=PANCAM",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"opportunity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "sol",
+							"value": "100"
+						},
+						{
+							"key": "api_key",
+							"value": "9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN"
+						},
+						{
+							"key": "camera",
+							"value": "PANCAM"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN&camera=NAVCAM",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN&camera=NAVCAM",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "sol",
+							"value": "1000"
+						},
+						{
+							"key": "api_key",
+							"value": "9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN"
+						},
+						{
+							"key": "camera",
+							"value": "NAVCAM"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "sol",
+							"value": "1000"
+						},
+						{
+							"key": "api_key",
+							"value": "9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.nasa.gov/neo/rest/v1/feed?start_date=1989-12-31&end_date=1990-01-01&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/neo/rest/v1/feed?start_date=1989-12-31&end_date=1990-01-01&api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"neo",
+						"rest",
+						"v1",
+						"feed"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "1989-12-31"
+						},
+						{
+							"key": "end_date",
+							"value": "1990-01-01"
+						},
+						{
+							"key": "api_key",
+							"value": "9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.nasa.gov/planetary/apod?api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN&date=2021-09-09",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN&date=2021-09-09",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "9EubBZSfHCa7vpcLfbnhgqsXfG5WmgLucSPdDtNN"
+						},
+						{
+							"key": "date",
+							"value": "2021-09-09"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
